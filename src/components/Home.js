@@ -14,7 +14,7 @@ export const Home = () => {
                         <p>
                         Furthermore, I strongly believe in empowering others through the sharing of knowledge and perspectives. I take pleasure in making positive contributions to the developer community by organizing events, teaching, or contributing to open-source projects. I believe that the more we share, the more we grow together.
                         </p>
-                        <p>Welcome to my personal space, where I merge my skills in frontend development and DevOps to create outstanding solutions and share knowledge with others. Together, we can build great websites, reliable systems, and a strong community.
+                        <p>Welcome to my personal space, where I merge my skills in Frontend Development, Backend Development and DevOps to create outstanding solutions and share knowledge with others. Together, we can build great websites, reliable systems, and a strong community.
                         </p>
                     </div>
                     <div className="image">
