@@ -1,0 +1,11 @@
+/* Experience */
+
+.experience {
+    height: 100vh;
+    top: 0;
+    padding: 250px 0 100px 0;
+    background: url("./assets/img/bghome1.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
