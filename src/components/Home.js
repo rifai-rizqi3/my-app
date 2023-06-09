@@ -1,5 +1,6 @@
 import { Container } from "react-bootstrap";
 import vector from "../assets/img/vektor.png";
+import 'remixicon/fonts/remixicon.css';
 
 export const Home = () => {
     return (
@@ -8,7 +9,20 @@ export const Home = () => {
                 <div className="d-flex">
                     <div className="wrap-text">
                         <span className="tagline">Hello World! </span>
-                        <h1>Hallo, I’m Rizqi.</h1>
+                        <h1>Hallo, I’m Rizqi.
+                            <a className="social-link" style={{textDecoration: "none"}} href="https://www.linkedin.com/in/rnrifai/" target="_blank" rel="noopener noreferrer">
+                                <i className="ri-linkedin-box-fill"></i>
+                            </a>
+                            <a className="social-link" style={{textDecoration: "none"}} href="https://github.com/rifai-rizqi3" target="_blank" rel="noopener noreferrer">
+                                <i className="ri-github-fill"></i>
+                            </a>
+                            <a className="social-link" style={{textDecoration: "none"}} href="https://twitter.com/rifairizqi3" target="_blank" rel="noopener noreferrer">
+                                <i className="ri-twitter-fill"></i>
+                            </a>
+                        </h1>
+                        <div>
+                            
+                        </div>
                         <p> I am passionate about becoming a Fullstack Developer and DevOps Engineer professional who can build user-friendly websites and add value to others by sharing knowledge and insights. By combining my expertise in Frontend Development, Backend Development and DevOps, I am dedicated to creating exceptional user experiences and ensuring smooth-running systems.
                         </p>
                         <p>
@@ -22,6 +36,8 @@ export const Home = () => {
                     </div>
                 </div>
             </Container>
-        </section>
+        </section> 
     )
 }
+
+

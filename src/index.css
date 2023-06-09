@@ -159,6 +159,7 @@ nav.navbar .theme-toggle i {
   height: 100vh;
   top: 0;
   padding: 250px 0 100px 0;
+  background: url("./assets/img/bghome1.png");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -188,9 +189,10 @@ nav.navbar .theme-toggle i {
 }
 
 .home p {
-  color: #000;
-  letter-spacing: 0.8px;
-  font-size: 17px;
+  text-align: justify;
+  color: #1b1b1b;
+  letter-spacing: 0.7px;
+  font-size: 18px;
   line-height: 1.5em;
   margin-bottom: 20px;
   width: 90%;
@@ -200,6 +202,17 @@ nav.navbar .theme-toggle i {
   animation: updown 3s linear infinite;
   height: 500px;
   width: 380px;
+}
+
+.social-link {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.social-link:hover {
+  transform: translateY(-3px);
+  text-decoration: underline;
+  color: #000;
 }
 
 @keyframes updown {
@@ -222,6 +235,8 @@ nav.navbar .theme-toggle i {
   }
 }
 
-@media screen {
-  
+@media only screen and (max-width: 768px) {
+  .home {
+      width: 50%;
+    }
 }
